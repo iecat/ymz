@@ -37,6 +37,89 @@ body {
   flex-direction: row;
 }
 
+.carousel{
+width: 100%;
+}
+
+.item
+{
+  position: relative;
+  text-align: center;
+  color: white;
+  max-height: 675px;
+}
+
+.item div
+{ 
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);  
+  font-family: 'Open Sans',sans-serif;
+  text-shadow: 0 2px 3px #303030;
+}
+
+.item div h1
+{
+  font-size: 75px;
+  margin: 0px;
+  line-height: 1.42857143;
+}
+
+.item div h5 {
+  font-size: 45px;
+  margin: 0px;
+  line-height: 1.42857143;
+}
+.item img 
+{
+  width: 100%;
+}
+
+.active
+{
+  display: block;
+}
+
+.hide
+{
+  display: none;
+}
+
+.active--btn
+{
+  background-color: #fff !important;
+  display: inline-block;
+    width: 15px;
+    height: 15px;
+    border: 2px solid #fff;
+    background-color: transparent;
+    box-shadow: 0 2px 3px 1px rgba(78,78,78,0.4);
+    border-radius: 50%;
+    cursor: pointer;
+    margin-right: 15px;
+}
+.hide--btn {
+  margin-right: 0;
+  display: inline-block;
+    width: 15px;
+    height: 15px;
+    border: 2px solid #fff;
+    background-color: transparent;
+    box-shadow: 0 2px 3px 1px rgba(78,78,78,0.4);
+    border-radius: 50%;
+    cursor: pointer;
+    margin-right: 15px;
+
+}
+
+.carousel-dot
+{
+  position: absolute;
+}
+
+
+
 @font-face
 {
   font-family: "Dancing Script";
